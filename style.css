@@ -1,0 +1,248 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    margin: 0px;
+    font-family: 'Lucida Sans Unicode';
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    background-image: url(https://shiftdelete.net/wp-content/uploads/2019/11/yenilenebilir-enerji-kullanimi-kotu-haber-3.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 780px;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.signup {
+    color: white;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.hrefs {
+    color: black;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.signup:hover:after,
+.signup:focus:after,
+.hrefs:hover::after,
+.hrefs:focus::after {
+    width: 100%;
+}
+
+.input-box input,
+.input-box textarea {
+  height: 30px;
+  width: 300px;
+  background: #000000;
+  color: white;
+  border: none;
+  border-bottom: 1px solid white;
+  margin-bottom: 20px;
+  font-family: 'Lucida Sans Unicode';
+}
+
+.signup:after {
+    background-color: white;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+.hrefs:after {
+    background-color: black;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.services {
+    height: 780px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 225px 100px 225px;
+}
+.underservices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+.insideservices {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 500px;
+    margin-right: 50px;
+    height: 650px;
+}
+.greentarif {
+    height: 780px;
+    margin: 0 225px 100px 225px;
+}
+.passivecash {
+    height: 350px;
+    background: 
+    linear-gradient(rgba(35, 35, 35, 0.7), rgba(0, 0, 0, 0.8)),
+    url(https://www.dubaisolarshow.com/wp-content/uploads/2021/02/solar-energy-over-world-1-e1612542427511.jpg);
+    background-position: 50% 30%;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 350px;
+    background-size: cover;
+    margin: 0 0px 100px 0px;
+}
+.ourclients {
+    height: 550px;
+    margin: 0 225px 100px 225px;
+}
+.fivesteps {
+    height: 780px;
+    margin: 0 225px;
+}
+.footer {
+    height: 500px;
+    background-color: black;
+}
+.text {
+    font-family: 'Lucida Sans Unicode';
+    font-size: 15px;
+    height: 150px;
+}
+
+.cash {
+        width: 500px;
+        color: white;
+        font-size: 30px;
+        font-family: 'Lucida Sans Unicode';
+        text-align: center;
+    }
+.main {
+        display: flex;
+        justify-content: space-between;
+
+    }
+.left {
+        display: flex;
+        flex-direction: column;
+    }
+
+.right {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        font-family: 'Lucida Sans Unicode';
+        font-size: 15px;
+    }
+
+.buttons {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 110px;
+        font-family: 'Lucida Sans Unicode';
+    }
+
+a {
+    text-decoration: none;
+    color: black;
+    }
+
+.block1 {
+        display: flex;
+        width: 475px;
+        margin-bottom: 50px;
+        font-family: 'Lucida Sans Unicode';
+        font-size: 13px;
+    }
+
+.block2 {
+    display: flex;
+    flex-direction: column;
+    width: 475px;
+    height: 300px;
+    flex-wrap: wrap;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 13px;
+    }
+
+.blocktext {
+    width: 225px;
+    height: 100px;
+    padding-bottom: 0px;
+    margin-bottom: 30px;
+    }
+
+.hhh {
+    font-size: 15px;
+    }
+
+.mainservices {
+    display: flex;
+    justify-content: space-between;
+}
+
+.underclients {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 550px;
+}
+
+.insideclients {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 50px;
+    justify-content: flex-start;
+    height: 500px;
+}
+
+.textclients {
+    font-family: 'Lucida Sans Unicode';
+    font-size: 13px;
+    margin-left: 75px;
+    padding: 5px 0px;
+}
+
+.imageclients {
+    display: flex;
+    align-items: flex-start;
+    width: 500px;
+    height: 500px;
+}
+
+.understeps {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.insidesteps {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 100%;
+    margin-right: 50px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
